@@ -1,0 +1,47 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Compiled Java classes
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# IDE - IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+*.env
+
+# Spring Boot
+spring.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Database local files
+*.db
+*.sqlite
