@@ -45,3 +45,6 @@ spring.log
 # Database local files
 *.db
 *.sqlite
+
+# Obsidian Annotation Dir
+.secure-event-hub-annotation/
