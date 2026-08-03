@@ -47,4 +47,4 @@ spring.log
 *.sqlite
 
 # Obsidian Annotation Dir
-.secure-event-hub-annotation/
+secure-event-hub-annotation/
