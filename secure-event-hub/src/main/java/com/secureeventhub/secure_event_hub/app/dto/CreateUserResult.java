@@ -1,4 +1,9 @@
 package com.secureeventhub.secure_event_hub.app.dto;
 
-public record CreateUserResult() {
+import java.util.UUID;
+
+public record CreateUserResult(
+    UUID id,
+    String email
+) {
 }
