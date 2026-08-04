@@ -1,5 +1,6 @@
 package com.secureeventhub.secure_event_hub.domain.shared;
 
+import com.secureeventhub.secure_event_hub.domain.exception.InvalidEmailException;
 import org.apache.commons.validator.routines.EmailValidator;
 
 import java.util.Locale;
