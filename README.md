@@ -35,6 +35,18 @@ Rather than focusing on feature delivery, this project emphasizes architectural 
 * Documented engineering decisions
 * Focus on maintainability and scalability
 
+## Domain Exception Rules
+
+1. Every domain error must inherit from `DomainException`.
+
+2. `DomainException` must extend `RuntimeException`.
+
+3. Exceptions must represent business rule violations, not technical or infrastructure failures.
+
+4. The Infrastructure layer must never throw `DomainException`.
+
+5. The Presentation layer must never create domain exceptions; it must only translate them into appropriate HTTP responses.
+
 ## Status
 
 🚧 **Work in Progress**
